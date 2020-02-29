@@ -9,23 +9,11 @@ namespace Assets.Scripts
 {
     class Duck
     {
-        bool DuckEnabled = false;
         Image DuckImg;
 
-        public Duck(bool isEnabled, Image duckImg)
+        public Duck(Image duckImg)
         {
-            DuckEnabled = isEnabled;
             DuckImg = duckImg;
-        }
-
-        public bool isDuckEnabled()
-        {
-            return DuckEnabled;
-        }
-
-        public void enableDuck(bool isEnabled)
-        {
-            DuckEnabled = isEnabled;
         }
     }
 }
